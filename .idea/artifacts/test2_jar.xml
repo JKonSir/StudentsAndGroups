@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="test2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/test2_jar</output-path>
+    <root id="archive" name="test2.jar">
+      <element id="module-output" name="StudentsAndGroups" />
+      <element id="extracted-dir" path="E:/Derby/lib/derbyclient.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Derby/lib/derbynet.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Derby/lib/derbyoptionaltools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Derby/lib/derbyrun.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Derby/lib/derbytools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Derby/lib/derby.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
