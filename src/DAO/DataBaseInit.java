@@ -33,7 +33,8 @@ public class DataBaseInit {
         Connection conn = null;
 
         try {
-            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+//            Class.forName("org.derby.Driver.EmbeddedDriver");
+            Class.forName("org.postgresql.Driver");
             conn = DriverManager.getConnection(connectionURL, userName, password);
         } catch (SQLException ex) {
             System.out.println(ex);

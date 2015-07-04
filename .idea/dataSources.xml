@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4" />
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="631377253">
+    <data-source source="LOCAL" name="PostgreSQL - testDB2@localhost" uuid="527107e8-6382-4f66-95b7-eb4697ae402b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/testDB2</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://E:/library/postgresql-9.4-1201.jdbc41.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Derby - testDB@localhost" uuid="14b16fc4-4b05-4dd4-b33e-458e998eb5f5">
+      <driver-ref>derby.remote</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.ClientDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby://localhost:1527/testDB</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

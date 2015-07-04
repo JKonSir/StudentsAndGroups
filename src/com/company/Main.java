@@ -10,7 +10,10 @@ public class Main implements Runnable {
     public static void main(String[] args) {
         DataBaseInit.setUserName("testUser");
         DataBaseInit.setPassword("qwerty");
-        DataBaseInit.setConnectionURL("jdbc:derby://localhost:1527/testDB");
+//        DataBaseInit.setConnectionURL("jdbc:derby://localhost:1527/testDB");
+        DataBaseInit.setConnectionURL("jdbc:postgresql://localhost:5432/testDB1");
+
+//        DataBaseInit.init();
 
         new Thread(new Main()).start();
     }
